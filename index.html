@@ -15,7 +15,7 @@
     				<div class="progress__item"></div>
   			</div>
 		</div>
-
+		<div id="everything">
 		<nav class="wow zoomIn navbar-example">
 			<ul class="nav nav-pills">
 				<li role="presentation" class="active wow fadeIn" data-wow-delay="333ms"><a href="#jumbotron">Home</a></li>
@@ -92,7 +92,7 @@
 			<br>
 			<br>
 		</div>
-
+		</div>
 		<div class="contact" id="contactus">
 			<div class="container">
 				<h1>Contact Us</h1>
@@ -113,5 +113,12 @@
 		<div class="footer" align="center">
 			<h2 style="color:#fff">Made with <i class="fa fa-heart animated infinite pulse" style="color:red"></i> by <a href="//andykamath.com" style="color: blue">Andy Kamath</a>. Photographs courtesy of <a href="//jamesseddon.me" style="color: blue">James Seddon</a></h2>
 		</div>
+		<script>
+			$(window).load(function()
+			{
+				$("#loader").show();
+				$("#everything").hide();
+			}
+		</script>
 	</body>
 </html>
