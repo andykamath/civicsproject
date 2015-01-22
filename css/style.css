@@ -31,4 +31,10 @@ nav a
 .jumbotron
 {
   position:absolute;
+  width: 100%;
+}
+
+div
+{
+  width:100%;
 }
