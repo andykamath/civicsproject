@@ -50,3 +50,8 @@ div
 {
   margin-top: 20%;
 }
+
+.carousel-caption
+{
+  visibility: hidden;
+}
