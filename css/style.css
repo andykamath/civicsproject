@@ -40,3 +40,8 @@ div
 {
   width:100%;
 }
+
+.jumbotron .container
+{
+  margin-top: 20%;
+}
