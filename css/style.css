@@ -12,6 +12,8 @@ nav
   position: fixed;
   z-index: 100;
   text-align: center;
+  position: relative;
+  top: 20px;
 }
 
 nav a
