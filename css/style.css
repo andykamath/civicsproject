@@ -6,6 +6,8 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(metro-bootstrap.min.css);
 
+@-webkit-keyframes puls { 0% {background-color: red; color: white;} 33% {background-color: white; color:blue;} 66% {background-color: blue; color:red;} 100% {background-color: red; color: #fff;} }
+
 nav
 {
   background: #000;
@@ -28,6 +30,14 @@ nav a
   width: 100%;
 }
 
+.jumbotron
+{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  -webkit-animation: puls 40s infinite alternate;
+}
+
 .mainjumbo
 {
   position:absolute;
@@ -36,14 +46,6 @@ nav a
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-}
-
-.jumbotron
-{
-    width: 100%;
-  height: 100%;
-  margin-bottom: 0;
-
 }
 
 div
