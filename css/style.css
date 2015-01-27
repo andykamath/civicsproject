@@ -49,7 +49,8 @@ nav a
 
 .fjumbo
 {
-  -webkit-animation: puls 4s infinite alternate;
+  background: red;
+  color: #fff;
 }
 
 div
