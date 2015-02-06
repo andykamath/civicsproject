@@ -8,15 +8,19 @@
 
 @-webkit-keyframes puls { 0% {background-color: red; color: white;} 33% {background-color: white; color:blue;} 66% {background-color: blue; color:red;} 100% {background-color: red; color: #fff;} }
 
+body
+{
+  overflow-x:hidden;
+}
+
 nav
 {
   background: #000;
   position: fixed;
   z-index: 100;
   text-align: center;
-  position: fixed;
   margin-top: 20px;
-  width: 700px;
+  width: 630px;
 }
 
 nav a
@@ -33,7 +37,6 @@ nav a
 .jumbotron
 {
   width: 100%;
-  height: 100%;
   margin-bottom: 0;
 }
 
@@ -45,6 +48,7 @@ nav a
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
+  height: 100%
 }
 
 .fjumbo
@@ -58,12 +62,78 @@ div
   width:100%;
 }
 
-.jumbotron .container
+.mainjumbo .container
 {
-  margin-top: 20%;
+  padding-bottom: 20%;
+  padding-top: 20%
 }
 
 .carousel-caption
 {
   visibility: hidden;
+}
+
+.jumbotron
+{
+  z-index: 0
+}
+
+.col-md-6
+{
+  width: 50%
+}
+
+.ijumbo
+{
+  background: url(http://www.philadelphia-reflections.com/images/Constitution11.jpg);
+  color: #fff;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.ijumbo .container
+{
+  padding-top: 20%
+}
+
+.ijumboinfo
+{
+  color: #fff;
+  background: blue
+}
+
+.col-md-6 li
+{
+  list-style-type: none;
+}
+
+.gjumbo
+{
+  background: url(https://s3.amazonaws.com/GBrief/uploads/article/preview_image/374/government-shutdown2.jpg);
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+.gjumbo .container
+{
+  padding-top: 20%
+}
+
+.gjumboinfo
+{
+  background: white
+}
+
+.ajumbo
+{
+  height: 100%;
+  background: url(http://stuffpoint.com/south-park/image/307127-south-park-respect-my-authoritah.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.ajumboinfo
+{
+  background: red;
+  color: #fff
 }
